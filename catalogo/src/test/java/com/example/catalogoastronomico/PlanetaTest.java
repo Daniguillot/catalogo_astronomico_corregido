@@ -6,7 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class PlanetaTest {
-/*
+
    @Test
    public void crear_objeto_y_getters() {
       Estrella e = new Estrella("Estrella", 1.1, 2.2, 3, null);
@@ -50,5 +50,4 @@ public class PlanetaTest {
       Planeta a = new Planeta("nombre", 1.1, 2.2 , false, e);
       assertEquals("objeto-Astro {nombre: nombre, tipo: Planeta, brillo: 1.1, distancia: 2.2, habitado: false, estrella: Alfa Centauri}", a.toString());
    }
-//*/
 }

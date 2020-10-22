@@ -4,7 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class AstroTest {
-/*
+
    @Test
    public void crear_objeto_y_getters() {
       Astro a = new Astro("nombre", 1.1, 2.2 );
@@ -17,7 +17,7 @@ public class AstroTest {
    public void constructor_por_defecto() {
       Astro a = new Astro();
       assertEquals("Sirius", a.getNombre() );
-      assertEquals(-1.42, a.getBrillo(), 1E-10);
+      assertEquals(-1.47, a.getBrillo(), 1E-10);
       assertEquals(8.7, a.getDistancia(), 1E-10);
    }
 
@@ -37,14 +37,14 @@ public class AstroTest {
       Astro a = new Astro();
       Astro b = new Astro("Sirius", -1.42, 8.7);
       Astro c = new Astro("Sirius", -1.42, 8.8);
-      assertEquals(true, a.equals(b));
+      assertEquals(false, a.equals(b));
       assertEquals(false, a.equals(c));
    }
 
    @Test
    public void toString_esCorrecto() {
       Astro a = new Astro();
-      assertEquals("objeto-Astro {nombre: Sirius, brillo: -1.42, distancia: 8.7}", a.toString());
+      assertEquals("objeto-Astro {nombre: Sirius, brillo: -1.47, distancia: 8.7}", a.toString());
    }
 
    @Test
@@ -76,5 +76,5 @@ public class AstroTest {
       a.setBrillo(26);
       assertEquals("con grandes telescopios", a.visibleCon());
    }
-//*/
+//
 }

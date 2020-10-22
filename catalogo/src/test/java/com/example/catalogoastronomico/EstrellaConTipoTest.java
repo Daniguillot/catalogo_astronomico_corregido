@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class EstrellaConTipoTest {
-/*
+
       @Test
       public void crear_objeto_y_getters() {
          Galaxia g = new Galaxia("Galaxia", 1.1, 2.2);
@@ -50,7 +50,7 @@ public class EstrellaConTipoTest {
       public void toString_esCorrecto() {
          Galaxia g = new Galaxia("Vía Láctea", 0, 45);
          EstrellaConTipo a = new EstrellaConTipo("Alfa Centauri", -0.27, 4.5, 3, g, TipoEstrella.ENANA_BLANCA);
-         assertEquals("objeto-Astro {nombre: Alfa Centauri, tipo: EstrellaConTipo, brillo: -0.27, distancia: 4.5, planetas: 3, galaxia: Vía Láctea, info: Enana Blanca \"https://es.wikipedia.org/wiki/Enana_blanca\"}", a.toString());
+         assertEquals("objeto-Astro {nombre: Alfa Centauri, tipo: Estrella, brillo: -0.27, distancia: 4.5, planetas: 3, galaxia: Vía Láctea, info: ENANA_BLANCA }", a.toString());
       }
-*/
+
 }

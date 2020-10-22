@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class GalaxiaTest {
-/*
+
    @Test
    public void crear_objeto_y_getters() {
       Galaxia a = new Galaxia("nombre", 1.1, 2.2 );
@@ -70,5 +70,5 @@ public class GalaxiaTest {
       a.setBrillo(26);
       assertEquals("con grandes telescopios", a.visibleCon());
    }
-//*/
+//
 }
